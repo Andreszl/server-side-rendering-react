@@ -1,0 +1,51 @@
+{
+  "name": "server-side-rendering-react",
+  "version": "1.0.0",
+  "description": "config server side rendering with express, ejs and webpack ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreszl/server-side-rendering-react.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "express",
+    "DB",
+    "server-side-rendering",
+    "api",
+    "babel"
+  ],
+  "author": "andreszl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreszl/server-side-rendering-react/issues"
+  },
+  "homepage": "https://github.com/Andreszl/server-side-rendering-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.2",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
